@@ -3,14 +3,17 @@
 
 # The Coronado Desktop App
 
-  <a href="https://github.com/Spiffily/ignition">
-  <img  alt="Release" src="https://img.shields.io/badge/release-0.0.1-red" />
+  <a href="https://discord.gg/RXebJCf">
+  <img src="https://img.shields.io/discord/735879930348306554?color=red&logo=discord&logoColor=white" alt="Chat on Discord" />
   </a>
   <a href="https://github.com/Spiffily/ignition">
   <img  alt="Code Size" src="https://img.shields.io/badge/app%20size-0%C2%A0kB-yellow" />
   </a>
-  <a href="https://discord.gg/RXebJCf">
-  <img src="https://img.shields.io/discord/735879930348306554?color=red&logo=discord&logoColor=white" alt="Chat on Discord" />
+  <a href="https://github.com/Spiffily/ignition">
+  <img  alt="Release" src="https://img.shields.io/badge/release-0.0.0-red" />
+  </a>
+  <a href="https://snapcraft.io/coronado-app">
+  <img src="https://img.shields.io/badge/snap-0.0.0-grey?logo=snapcraft&logoColor=white" alt="Snap Store" />
   </a>
 
 This is the (official) repository for the (unofficial) Coronado Desktop App.
@@ -26,7 +29,7 @@ Sometimes it's just a little annoying to log into and check every single website
 | app     | alpha      | -- |
 | run     | *n/a*      | Not Started |
 | build   | *n/a*      | Not Started |
-| publish | *n/a*      | Not Published |
+| release | *n/a*      | Not Published |
 | backend | *n/a*      | Not Started |
 | gui     | *n/a*      | Not Started |
 
