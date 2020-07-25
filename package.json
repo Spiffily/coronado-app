@@ -1,0 +1,25 @@
+{
+  "name": "coronado-app",
+  "version": "0.0.1",
+  "description": "The (unofficial) Coronado Desktop App.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spiffily/coronado-app.git"
+  },
+  "keywords": [
+    "Education"
+  ],
+  "author": "Spiffily Software",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Spiffily/coronado-app/issues"
+  },
+  "homepage": "https://github.com/Spiffily/coronado-app#readme",
+  "devDependencies": {
+    "electron": "^9.1.1"
+  }
+}
