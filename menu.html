@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Coronado</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Open+Sans&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./themes/adwaita-dark.css">
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div class="toolbar">
+      <a href="./index.html"><button style="height:50px;width:100px;">Back</button></a>
+      <h1 style="flex:2;">Menu</h1>
+      <div class="hud">
+        <p><b>GPA:</b> 4.375</p>
+        <p><b>Active:</b> 3</p>
+        <p><b>Missing:</b> 1</p>
+      </div>
+    </div>
+
+    <h2>Summary</h2>
+    <div class="flex-grid-container container">
+      <button>Grades</button>
+      <button>Assignments</button>
+      <button>Calendar</button>
+    </div>
+    <h2>Sites</h2>
+    <div class="flex-grid-container container">
+      <button>Schology</button>
+      <button>Q Connect</button>
+      <button>Google Classroom</button>
+      <button>Teacher Sites</button>
+    </div>
+
+    <div class="toolbar" style="position:fixed; bottom:0; width:100%;">
+      <button>Settings</button>
+      <!-- <p>The unofficial Coronado Desktop App, Spiffily Software, 2020</p> -->
+      <a href="./about.html"><button>About</button></a>
+  </body>
+</html>

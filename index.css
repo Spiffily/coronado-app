@@ -39,6 +39,9 @@ h1{
   font-family: var(--font-family-header);
   text-align: center;
 }
+h2{
+  padding: 0% 2%;
+}
 p{
   padding: 0% 5%;
   color: var(--foreground-color);
@@ -70,20 +73,29 @@ button:active{
   -webkit-border-radius:var(--border-radius);
 }
 
+.row {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.row > *{margin: 0px 3px;}
+
 /* Grids */
 .grid-container {
   display: grid;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
   grid-template-columns: auto auto auto auto;
+  text-align: center;
   /* background-color: var(--base-color); */
   border-radius:var(--border-radius);
   -moz-border-radius:var(--border-radius);
   -webkit-border-radius:var(--border-radius);
-  padding: 10px;
+  padding: 1%;
 }
 
-.grid-item {
+.grid-container > * {
   color: var(--foreground-color);
   background-color: var(--base-color);
   border-radius:var(--border-radius);
@@ -91,7 +103,31 @@ button:active{
   -moz-border-radius:var(--border-radius);
   -webkit-border-radius:var(--border-radius);
   padding: 20px;
-  font-size: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.flex-grid-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  /* background-color: var(--base-color); */
+  border-radius:var(--border-radius);
+  -moz-border-radius:var(--border-radius);
+  -webkit-border-radius:var(--border-radius);
+  padding: 1%;
+}
+
+.flex-grid-container > * {
+  color: var(--foreground-color);
+  background-color: var(--base-color);
+  border-radius:var(--border-radius);
+  border:var(--border-width) solid var(--border-color);
+  -moz-border-radius:var(--border-radius);
+  -webkit-border-radius:var(--border-radius);
+  padding: 20px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -102,6 +138,16 @@ button:active{
   align-items: center;
   text-align: center;
   margin: 5px 10px;
+}
+
+.floater{ /*A floating toolbar.*/
+  background-color: var(--background-color);
+  border:0 solid var(--border-color);
+  /* border-radius:var(--border-radius); */
+  position:fixed;
+  bottom:0;
+  width:100%;
+  margin: 0 0;
 }
 
 /* HUD */
