@@ -42,7 +42,7 @@ Sometimes it's just a little annoying to log into and check every single website
 </div>
 
 ## Contribute
-<div>
+<div style="text-align:left;">
 
 1. Clone the repository. `git clone https://github.com/Spiffily/coronado-app`
 2. Install npm. `sudo apt-get install -y npm` on Ubuntu based OSes
