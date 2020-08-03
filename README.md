@@ -46,7 +46,8 @@ Sometimes it's just a little annoying to log into and check every single website
 
 1. Clone the repository. `git clone https://github.com/Spiffily/coronado-app`
 2. Install npm. `sudo apt-get install -y npm` on Ubuntu based OSes
-3. Run the app. `cd coronado-app && npm start`
+3. Install latest electron. `npm install --save-dev electron`
+4. Run the app. `cd coronado-app && npm start`
 
 </div>
 
