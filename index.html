@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Coronado</title>
+    <title>Coronado Desktop App</title>
     <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
     <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Open+Sans&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
@@ -11,28 +11,94 @@
   </head>
   <body>
     <div class="toolbar">
-      <a href="./menu.html"><button style="height:50px;width:100px;">Menu</button></a>
+      <!-- <a href="./menu.html"><button style="height:50px;width:100px;">Menu</button></a> -->
       <h1 style="flex:2;">Home</h1>
-      <div class="hud">
+      <!-- <div class="hud">
         <p><b>GPA:</b> 4.375</p>
         <p><b>Active:</b> 3</p>
         <p><b>Missing:</b> 1</p>
-      </div>
+      </div> -->
     </div>
 
-    <div class="container">
-      <p>Hello World!</p>
-
-      <div class="grid-container">
-        <button>Hello!</button>
-        <button>Hello!</button>
-        <button>Hello!</button>
-        <button>Hello!</button>
-        <button>Hello!</button>
-        <button>Hello!</button>
-        <button>Hello!</button>
-        <button>Hello!</button>
-      </div>
+    <h2>Summary</h2>
+    <div class="grid-container container">
+      <!-- <a href=""><button>Grades</button></a>
+      <a href=""><button>Assignments</button></a> -->
+      <a href="https://calendar.google.com/"><button>Calendar</button></a>
+      <a href="https://todoist.com/app"><button>To Do</button></a>
+      <a href="https://www.evernote.com/Login.action"><button>Notes</button></a>
     </div>
+    <h2>Summer Assignments</h2>
+    <div class="grid-container container" style="margin-bottom:50px;">
+      <a href="https://www.d11.org/cms/lib/CO02201641/Centricity/Domain/33/9th%20Grade%20Summer%20Reading%202020.pdf"><button>Freshman English</button></a>
+      <a href="https://www.d11.org/cms/lib/CO02201641/Centricity/Domain/33/10th%20honors.pdf"><button>Sophomore English Honors</button></a>
+      <a href="https://www.d11.org/cms/lib/CO02201641/Centricity/Domain/33/11th%20honors%20eng.pdf"><button>Junior English Honors</button></a>
+      <a href="https://www.d11.org/Domain/3882"><button>AP Human Geography</button></a>
+    </div>
+    <h2>Main Sites</h2>
+    <div class="grid-container container">
+      <a href="https://d11.schoology.com/home"><button>Schoology</button></a>
+      <a href="https://d11connect.d11.org/Studentportal"><button>Q Connect</button></a>
+      <a href="https://classroom.google.com/h"><button>Google Classroom</button></a>
+      <a href="https://www.d11.org/site/Default.aspx?PageType=1&SiteID=33&ChannelID=3512&DirectoryType=6"><button>Teacher Sites</button></a>
+      <a href="https://www.office.com/?auth=2&home=1"><button>Office 365</button></a>
+      <a href="https://www.d11.org/coronado"><button>Coronado Homepage</button></a>
+    </div>
+    <h2>Study</h2>
+    <div class="grid-container container">
+      <a href="https://kahoot.it"><button>Kahoot</button></a>
+      <a href="https://quizlet.com/"><button>Quizlet</button></a>
+      <a href="https://quizlet.com/live"><button>Quizlet Live</button></a>
+      <a href="https://www.seterra.com/#quizzes"><button>Seterra</button></a>
+    </div>
+    <h2>Math</h2>
+    <div class="grid-container container">
+      <a href="https://www.office.com/launch/onenote?auth=2"><button>OneNote</button></a>
+      <a href="https://my.hrw.com/sp/access?connection=CO-CSSD11-00149010"><button>Text Books</button></a>
+      <a href="https://www.desmos.com/calculator"><button>Desmos</button></a>
+      <a href="https://www.geogebra.org/classic?lang=en"><button>Geogebra Classic</button></a>
+    </div>
+    <h2>Science</h2>
+    <div class="grid-container container">
+      <a href="https://edpuzzle.com/classes"><button>Edpuzzle</button></a>
+    </div>
+    <h2>English</h2>
+    <div class="grid-container container">
+      <a href="https://my.mheducation.com/login"><button>StudySync</button></a>
+      <a href="https://www.turnitin.com/"><button>Turn It In</button></a>
+    </div>
+    <h2>Foreign Language</h2>
+    <div class="grid-container container">
+      <a href="https://sites.google.com/view/brenturbanclassroom/home"><button>BrentUrban.com</button></a>
+      <a href="https://www.vhlcentral.com/"><button>VHL Central</button></a>
+    </div>
+    <h2>Other Resources</h2>
+    <div class="grid-container container">
+      <a href="https://clever.com/oauth/authorize?response_type=code&district_id=56d9d9e35994560100001c9d&redirect_uri=https%3A%2F%2Fcleversso.naviance.com%2Fauthenticate&client_id=998d799b68dd5e1b6a57&state="><button>Naviance</button></a>
+      <a href="https://www.khanacademy.org/"><button>Khan Academy</button></a>
+      <a href="https://www.d11.org/cms/lib/CO02201641/Centricity/Domain/33/new%20bell%20schedule.pdf"><button>Bell Schedule</button></a>
+      <a href="http://www.csmleague.org/public/genie/429/school/3/"><button>Athletics Schedule</button></a>
+      <a href="https://www.youtube.com/channel/UCKJe4Hi54LEGSRddqzIALQA"><button>KUGR TV</button></a>
+      <a href="http://cougardaily.org/"><button>Cougar Daily</button></a>
+      <a href="https://www.d11.org/cms/lib/CO02201641/Centricity/Domain/1094/Club%20descriptions%202019-2020.pdf"><button>Clubs</button></a>
+      <a href="https://www.d11.org/domain/1116"><button>Course Catalog</button></a>
+      <a href="http://coronadocounseling.weebly.com/"><button>Counseling</button></a>
+      <a href="https://www.youtube.com/watch?v=eCZ9BomJLSg&list=PLu3pnHiO9IU-rajXK0ebv5-UN7KEaDSwQ&index=2"><button>Minecraft Virtual Tour</button></a>
+      <a href="https://safe2tell.org/"><button><b>Safe to Tell</b></button></a>
+      <a href="https://www.d11.org/site/Default.aspx?PageID=1705"><button>Delays and Closures</button></a>
+      <a href=""><button></button></a>
+    </div>
+    <h2>AP Resources</h2>
+    <div class="grid-container container" style="margin-bottom:50px;">
+      <a href="https://www.d11.org/cms/lib/CO02201641/Centricity/Domain/33/AP%20-%20Changes%20letter%202019-20.docx"><button>Exam Registration</button></a>
+      <a href="https://www.d11.org/cms/lib/CO02201641/Centricity/Domain/33/AP%20-%20Coronado%20AP%20courses%20%20teachers%202019-20.pdf"><button>Exam Courses 2019-2020</button></a>
+      <a href="https://www.d11.org/cms/lib/CO02201641/Centricity/Domain/33/AP%20-%20Updated%20AP%20Online%20Exam%20Schedule%202020.pdf"><button>Exam Schedule</button></a>
+      <a href=""><button></button></a>
+    </div>
+
+    <div class="toolbar floater" style="justify-content: space-around; padding:5px;">
+      <button>Settings</button>
+      <!-- <p>The unofficial Coronado Desktop App, Spiffily Software, 2020</p> -->
+      <a href="./about.html"><button>About</button></a>
   </body>
 </html>

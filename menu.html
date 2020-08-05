@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="toolbar">
-      <a href="./index.html"><button style="height:50px;width:100px;">Back</button></a>
+      <a href="#" onclick="history.go(-1)"><button style="height:50px;width:100px;">Back</button></a>
       <h1 style="flex:2;">Menu</h1>
       <div class="hud">
         <p><b>GPA:</b> 4.375</p>
@@ -21,17 +21,20 @@
     </div>
 
     <h2>Summary</h2>
-    <div class="flex-grid-container container">
-      <button>Grades</button>
-      <button>Assignments</button>
-      <button>Calendar</button>
+    <div class="flex-container container">
+      <a href=""><button>Grades</button></a>
+      <a href=""><button>Assignments</button></a>
+      <a href=""><button>Calendar</button></a>
+      <a href=""><button>To Do</button></a>
+      <a href=""><button>Notes</button></a>
     </div>
     <h2>Sites</h2>
-    <div class="flex-grid-container container">
-      <button>Schology</button>
-      <button>Q Connect</button>
-      <button>Google Classroom</button>
-      <button>Teacher Sites</button>
+    <div class="flex-container container">
+      <a href="https://d11.schoology.com/home"><button>Schoology</button></a>
+      <a href="https://d11connect.d11.org/Studentportal"><button>Q Connect</button></a>
+      <a href="https://classroom.google.com/h"><button>Google Classroom</button></a>
+      <a href="https://www.d11.org/site/Default.aspx?PageType=1&SiteID=33&ChannelID=3512&DirectoryType=6"><button>Teacher Sites</button></a>
+      <a href="https://edpuzzle.com/classes"><button>Edpuzzle</button></a>
     </div>
 
     <div class="toolbar" style="position:fixed; bottom:0; width:100%;">

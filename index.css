@@ -9,20 +9,31 @@ ALL FONTS, COLORS, BORDER STYLES, ETC. SHOULD BE CALLED FROM THE THEME FILE'S VA
 --foreground-color
 --accent-color
 
+--background-image
+--background-image-transparency
+--base-background-image
+--base-background-image-transparency
+
 --border-radius
 --border-width
 --border-color
---hover-color *//*Base color, but slightly lighter*//*
---focus-border-color /*Border color, but a little lighter*//*
---active-color *//*Background color, but darker*/
+--hover-color           Base color, but slightly lighter
+--focus-border-color    Border color, but a little lighter
+--active-color          Background color, but darker
 
-/*Google Fonts imported by default:
+Google Fonts imported by default:
   font-family: 'Inconsolata', monospace;
   font-family: 'Open Sans', sans-serif;
   font-family: 'Ubuntu', sans-serif;
 --font-family-header
 --font-family-body
---font-family-code */
+--font-family-code
+
+--font-size
+--font-size-medium
+--font-size-header
+--font-color-base
+*/
 
 *{
   color: var(--foreground-color);
@@ -51,6 +62,7 @@ button{
   background-color: var(--base-color);
   border:var(--border-width) solid var(--border-color);
   border-radius:var(--border-radius);
+  font: var(--font-size);
   -moz-border-radius:var(--border-radius);
   -webkit-border-radius:var(--border-radius);
   transition:background-color 0.3s ease 0s;
@@ -84,11 +96,12 @@ button:active{
 /* Grids */
 .grid-container {
   display: grid;
+  justify-content: space-around;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
   grid-template-columns: auto auto auto auto;
   text-align: center;
-  /* background-color: var(--base-color); */
+  background-color: var(--base-color);
   border-radius:var(--border-radius);
   -moz-border-radius:var(--border-radius);
   -webkit-border-radius:var(--border-radius);
@@ -96,18 +109,17 @@ button:active{
 }
 
 .grid-container > * {
-  color: var(--foreground-color);
+  /* color: var(--foreground-color);
   background-color: var(--base-color);
   border-radius:var(--border-radius);
   border:var(--border-width) solid var(--border-color);
   -moz-border-radius:var(--border-radius);
-  -webkit-border-radius:var(--border-radius);
+  -webkit-border-radius:var(--border-radius); */
   padding: 20px;
-  font-size: 20px;
   text-align: center;
 }
 
-.flex-grid-container {
+.flex-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -119,7 +131,7 @@ button:active{
   padding: 1%;
 }
 
-.flex-grid-container > * {
+/* .flex-container > * {
   color: var(--foreground-color);
   background-color: var(--base-color);
   border-radius:var(--border-radius);
@@ -129,7 +141,7 @@ button:active{
   padding: 20px;
   font-size: 20px;
   text-align: center;
-}
+} */
 
 /* Toolbar */
 .toolbar{
