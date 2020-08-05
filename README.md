@@ -22,16 +22,29 @@ Sometimes it's just a little annoying to log into and check every single website
 
   __This app is still in alpha. It isn't fully functional yet and should only be used for development and testing purposes right now.__
 
+## Timeline
+
+  Unfortunately, I have heard it rumored from multiple sources that Coronado is going to start virtually. For how long I am unsure, but I have heard that it could be anywhere from a couple weeks to sometime in October.
+
+  In any case, and even if we don't start virtually, I feel that the Coronado Desktop App would be an invaluable resource to students. I also wish to make a 'teacher' version that would look similar to the student version at first.
+
+Anyway, **the deadline for the first stable release (1.0) is August 17th,** a week before we go back to school. I know this is a tall order, but here is **the feature list for this version (1.0)**:
+- [ ] The user can access common learning websites within the app, each with at least auto-filling of their credentials, if not auto-login.
+- [ ] Students will receive desktop notifications when teachers add assignments to at least Schoology.
+- [ ] Users can view a calendar which combines all their teacher's calendars together.
+- [ ] Users will be able to access Evernote from the app, and possibly even add assignment details or dates from their calendar to their notes.
+- [ ] Users will be able to access Todoist from the app, and possibly add assignments automatically from at least Schoology.
+
 ## Status
 
 | Item    | Status     | Description |
 | ------- | ---------- | ---------- |
 | app     | alpha      | -- |
-| run     | *n/a*      | Not Started |
+| run     | *warning* | Q will not login via electron. |
 | build   | *n/a*      | Not Started |
 | release | *n/a*      | Not Published |
 | backend | *n/a*      | Not Started |
-| gui     | *n/a*      | Not Started |
+| gui     | *in progress* | There are some css formatting issues right now. |
 
 
 ## Install
