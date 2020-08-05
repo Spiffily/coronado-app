@@ -48,10 +48,11 @@ Anyway, **the deadline for the first stable release (1.0) is August 17th,** a we
 
 
 ## Install
-<div>
-<a href="https://snapcraft.io/coronado-app">
-<img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" />
-</a>
+<div style="display:flex; flex-wrap: wrap; justify-content: center; align-items: center; ">
+  <a href="https://spiffily.github.io/coronado-app/">Go to web app >>></a>
+  <a href="https://snapcraft.io/coronado-app">
+    <img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" />
+  </a>
 </div>
 
 ## Contribute
