@@ -24,7 +24,8 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
- - OS: [e.g. iOS]
+ - OS: [e.g. Windows 10, macOS Big Sur, Manjaro 20.0.3]
+ - Desktop Environment (Linux only): [e.g. GNOME, Cinnamon, Plasma, XFCE 4, MATE]
  - Version [e.g. 22]
 
 **Additional context**
