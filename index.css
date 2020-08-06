@@ -59,7 +59,7 @@ p{
   font-family: var(--font-family-body);
 }
 button{
-  background-color: var(--base-color);
+  background-color: var(--button-color);
   border:var(--border-width) solid var(--border-color);
   border-radius:var(--border-radius);
   box-shadow:var(--box-shadow);

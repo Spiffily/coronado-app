@@ -2,9 +2,10 @@
 
 :root{ /*NOTE: Make all theme changes here.*/
   --background-color: #460101;
-  --base-color: #9f9202;
+  --base-color: #5D1609;
   --foreground-color: white;
-  --accent-color: #696754;
+  --button-color: #9f9202;
+  --accent-color: #9f9202;
 
   --background-image: ;
   --background-image-attachment: ;
@@ -28,6 +29,9 @@
   --font-family-header: 'Special Elite', cursive;
   --font-family-body: 'Quicksand', sans-serif;
   --font-family-code: 'Inconsolata', monospace;
+}
+button{
+  background-color: var(--accent-color);
 }
 ::selection{
   text-shadow: 2px 2px var(--base-color);
