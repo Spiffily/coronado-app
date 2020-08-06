@@ -21,10 +21,6 @@ ALL FONTS, COLORS, BORDER STYLES, ETC. SHOULD BE CALLED FROM THE THEME FILE'S VA
 --focus-border-color    Border color, but a little lighter
 --active-color          Background color, but darker
 
-Google Fonts imported by default:
-  font-family: 'Inconsolata', monospace;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Ubuntu', sans-serif;
 --font-family-header
 --font-family-body
 --font-family-code
@@ -35,13 +31,17 @@ Google Fonts imported by default:
 --font-color-base
 */
 
+
 *{
   color: var(--foreground-color);
   font-family: var(--font-family-body);
 }
-::selection{background: var(--accent-color);}
+::selection{
+  background-color: var(--accent-color);
+}
 body{
   background-color: var(--background-color);
+  background-image: var(--background-image);
   /* background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png"); */
   /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
@@ -62,6 +62,7 @@ button{
   background-color: var(--base-color);
   border:var(--border-width) solid var(--border-color);
   border-radius:var(--border-radius);
+  box-shadow:var(--box-shadow);
   font: var(--font-size);
   -moz-border-radius:var(--border-radius);
   -webkit-border-radius:var(--border-radius);
@@ -77,8 +78,8 @@ button:active{
 
 .container{
   background-color: var(--base-color);
-  /* background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png"); */
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-image: var(--base-background-image);
+  background-attachment: var(--base-background-image-attachment);
   padding: 5px 10px;
   border-radius:var(--border-radius);
   -moz-border-radius:var(--border-radius);
@@ -95,13 +96,16 @@ button:active{
 
 /* Grids */
 .grid-container {
-  display: grid;
+  display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   grid-row-gap: 10px;
   grid-column-gap: 10px;
   grid-template-columns: auto auto auto auto;
   text-align: center;
   background-color: var(--base-color);
+  background-image: var(--base-background-image);
+  background-attachment: var(--base-background-image-attachment);
   border-radius:var(--border-radius);
   -moz-border-radius:var(--border-radius);
   -webkit-border-radius:var(--border-radius);
