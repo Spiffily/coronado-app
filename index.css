@@ -59,6 +59,8 @@ p{
   font-family: var(--font-family-body);
 }
 button{
+  padding:15px 20px;
+  margin:5px;
   background-color: var(--button-color);
   border:var(--border-width) solid var(--border-color);
   border-radius:var(--border-radius);
